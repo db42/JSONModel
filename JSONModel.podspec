@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = 'JSONModel/**/*.{m,h}'
   s.public_header_files = 'JSONModel/**/*.h'
 
-  s.dependency 'CocoaLumberjack', '~> 2.2'
+  s.dependency 'CocoaLumberjack'
 
   s.requires_arc = true
 
